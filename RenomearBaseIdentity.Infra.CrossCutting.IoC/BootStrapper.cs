@@ -31,7 +31,7 @@ namespace RenomearBaseIdentity.Infra.CrossCutting.IoC
             //container.Register<UserManager<ApplicationUser, string>, ApplicationUserManager>();
 
 
-            container.Register(() => new ApplicationUserManager(new UserStore<ApplicationUser>()));
+            //container.Register(() => new ApplicationUserManager(new UserStore<ApplicationUser>()));
 
 
             container.Register(() => new ApplicationUserStore(new ApplicationDbContext()), Lifestyle.Scoped);
