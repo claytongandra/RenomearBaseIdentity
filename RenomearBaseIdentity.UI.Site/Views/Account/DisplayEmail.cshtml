@@ -1,0 +1,36 @@
+﻿@{
+    ViewBag.Title = "Verificar E-mail";
+}
+<section class="content-header">
+    <h1>@ViewBag.Title <small></small> </h1>
+    <ol class="breadcrumb">
+        <li><a href="#"><i class="fa fa-dashboard"></i> Level</a></li>
+        <li class="active">Here</li>
+    </ol>
+</section>
+<section class="content">
+    <div class="box box-default">
+        <div class="box-header with-border">
+            <h3 class="box-title">zzzzzzzzz</h3>
+        </div>
+        <div class="box-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12">
+                        <p class="text-info">
+                            Verifique seu e-mail e confirme seu endereço.
+                        </p>
+                        <p class="text-danger">
+                            DEMO: Caso o e-mail não chegue clique neste link: <a href="@ViewBag.Link">link</a>
+                        </p>
+                        <p class="text-danger">
+                            Exemplo do link que vai no e-mail: <br />
+                            @ViewBag.Link
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </div><!-- /.box-body -->
+    </div><!-- /.box box-default -->
+</section><!-- /.content -->

@@ -1,0 +1,34 @@
+﻿@{
+    ViewBag.Title = "Algo de errado não está certo.";
+
+    if (string.IsNullOrEmpty(ViewBag.StatusMessage))
+    {
+        ViewBag.StatusMessage = "Ocorreu uma exceção ao processar sua solicitação.";
+    }
+}
+
+<div class="row">
+    <div class="col-md-2 col-md-offset-1" style="padding:50px 0 50px 50px; border:1px none #ff0000">
+        <img src="~/Content/Images/img_icons/icons8-Tornado-100.png" width="100" height="100" />
+    </div>
+    <div class="col-md-9" style="border:1px none #4cff00">
+        <div>&nbsp;</div>
+        <h1>Oops! Erro</h1>
+        <h3>Algo de errado não está certo.</h3>
+        <hr />
+        <h5 class="text-danger">@Html.Raw(@ViewBag.StatusMessage)</h5>
+        @if (TempData["CallbackError"] != null)
+        {
+            List<string> callbackError = (List<string>)TempData["CallbackError"];
+            <div class="alert alert-danger" role="alert">
+                <ul>
+                    @foreach (var error in callbackError)
+                    {
+                        <li>@error</li>
+                    }
+                </ul>
+            </div>
+        }
+    </div>
+
+</div>

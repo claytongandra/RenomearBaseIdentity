@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Presentation", "0 - Presentation", "{9BEAF6E4-3CE8-4CDE-84D9-254CC30AE60D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Application", "1 - Application", "{84FC2843-3BAF-42ED-A855-FB2F69CF37EF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domain", "2 - Domain", "{3ED879F5-A04E-4A5A-B31E-0E2A03CD7A02}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Infra", "3 - Infra", "{136912DA-3C9F-4DCE-B17A-630CFAC23D79}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.1 - Data", "3.1 - Data", "{A651F302-E839-42AC-BD5F-54A3E55FDF1D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.2 - CrossCutting", "3.2 - CrossCutting", "{5AC33679-DD7D-4533-9CC2-40B17F2141FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RenomearBaseIdentity.UI.Site", "RenomearBaseIdentity.UI.Site\RenomearBaseIdentity.UI.Site.csproj", "{F698634F-D0B5-4ABB-9AEC-B537BF138EAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RenomearBaseIdentity.Domain", "RenomearBaseIdentity.Domain\RenomearBaseIdentity.Domain.csproj", "{EACE4A4F-FD1E-43EE-B383-CDFDF17CA21B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RenomearBaseIdentity.Infra.Data", "RenomearBaseIdentity.Infra.Data\RenomearBaseIdentity.Infra.Data.csproj", "{10C99BEC-4CCC-498E-86AC-9C81A4337E05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RenomearBaseIdentity.Infra.CrossCutting.Identity", "RenomearBaseIdentity.Infra.CrossCutting.Identity\RenomearBaseIdentity.Infra.CrossCutting.Identity.csproj", "{3C812DAA-012F-4B0F-96EF-DE6396A0FDAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RenomearBaseIdentity.Infra.CrossCutting.IoC", "RenomearBaseIdentity.Infra.CrossCutting.IoC\RenomearBaseIdentity.Infra.CrossCutting.IoC.csproj", "{D8886FD1-E0F6-4D5D-A47F-5A971608F3F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RenomearBaseIdentity.Application", "RenomearBaseIdentity.Application\RenomearBaseIdentity.Application.csproj", "{089F090D-1FD0-46DD-A9A1-34115C4868C4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F698634F-D0B5-4ABB-9AEC-B537BF138EAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F698634F-D0B5-4ABB-9AEC-B537BF138EAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F698634F-D0B5-4ABB-9AEC-B537BF138EAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F698634F-D0B5-4ABB-9AEC-B537BF138EAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EACE4A4F-FD1E-43EE-B383-CDFDF17CA21B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EACE4A4F-FD1E-43EE-B383-CDFDF17CA21B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EACE4A4F-FD1E-43EE-B383-CDFDF17CA21B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EACE4A4F-FD1E-43EE-B383-CDFDF17CA21B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10C99BEC-4CCC-498E-86AC-9C81A4337E05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10C99BEC-4CCC-498E-86AC-9C81A4337E05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10C99BEC-4CCC-498E-86AC-9C81A4337E05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10C99BEC-4CCC-498E-86AC-9C81A4337E05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C812DAA-012F-4B0F-96EF-DE6396A0FDAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C812DAA-012F-4B0F-96EF-DE6396A0FDAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C812DAA-012F-4B0F-96EF-DE6396A0FDAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C812DAA-012F-4B0F-96EF-DE6396A0FDAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8886FD1-E0F6-4D5D-A47F-5A971608F3F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8886FD1-E0F6-4D5D-A47F-5A971608F3F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8886FD1-E0F6-4D5D-A47F-5A971608F3F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8886FD1-E0F6-4D5D-A47F-5A971608F3F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{089F090D-1FD0-46DD-A9A1-34115C4868C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{089F090D-1FD0-46DD-A9A1-34115C4868C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{089F090D-1FD0-46DD-A9A1-34115C4868C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{089F090D-1FD0-46DD-A9A1-34115C4868C4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A651F302-E839-42AC-BD5F-54A3E55FDF1D} = {136912DA-3C9F-4DCE-B17A-630CFAC23D79}
+		{5AC33679-DD7D-4533-9CC2-40B17F2141FD} = {136912DA-3C9F-4DCE-B17A-630CFAC23D79}
+		{F698634F-D0B5-4ABB-9AEC-B537BF138EAC} = {9BEAF6E4-3CE8-4CDE-84D9-254CC30AE60D}
+		{EACE4A4F-FD1E-43EE-B383-CDFDF17CA21B} = {3ED879F5-A04E-4A5A-B31E-0E2A03CD7A02}
+		{10C99BEC-4CCC-498E-86AC-9C81A4337E05} = {A651F302-E839-42AC-BD5F-54A3E55FDF1D}
+		{3C812DAA-012F-4B0F-96EF-DE6396A0FDAE} = {5AC33679-DD7D-4533-9CC2-40B17F2141FD}
+		{D8886FD1-E0F6-4D5D-A47F-5A971608F3F9} = {5AC33679-DD7D-4533-9CC2-40B17F2141FD}
+		{089F090D-1FD0-46DD-A9A1-34115C4868C4} = {84FC2843-3BAF-42ED-A855-FB2F69CF37EF}
+	EndGlobalSection
+EndGlobal

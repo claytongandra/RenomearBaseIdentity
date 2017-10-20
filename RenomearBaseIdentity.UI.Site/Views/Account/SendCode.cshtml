@@ -1,0 +1,37 @@
+﻿@model RenomearBaseIdentity.Infra.CrossCutting.Identity.ViewModels.AccountViewModels.SendCodeViewModel
+
+@{
+    ViewBag.Title = "Enviar código de verificação";
+}
+
+<h2>@ViewBag.Title</h2>
+
+@using (Html.BeginForm("SendCode", "Account", new { ReturnUrl = Model.ReturnUrl }, FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+{
+    @Html.AntiForgeryToken()
+    @Html.Hidden("rememberMe", @Model.RememberMe)
+    <hr />
+    <div class="form-horizontal">
+        <div class="form-group">
+            @Html.LabelFor(model => model.SelectedProvider, htmlAttributes: new { @class = "control-label col-md-4 required" })
+            <div class="col-md-8">
+                @Html.DropDownListFor(model => model.SelectedProvider, Model.Providers, String.Empty, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.SelectedProvider, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-4 col-md-8">
+                <input type="submit" value="Enviar" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+
+
+
+
