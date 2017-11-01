@@ -71,7 +71,7 @@ EntityFramework
 -- 14212. Data de Vencimento do Faturamento Gerado alterada por/em
 -- 14213. Data de Vencimento do Faturamento Gerado Pagamento alterada por/em
 -- ----------------------------------------------------------------------------------------
--- Autor    : Rober carassini Junior
+-- Autor    : 
 -- Criação  : 18/04/2011
 -- Alteração: 
 -- DATA		    DESENVOLVEDOR	DESCRIÇÃO
